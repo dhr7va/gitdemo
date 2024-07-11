@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Write your code below -->
+    <h1>Book Appointment</h1>
+    <label for="form">Patient Details</label>
+    <hr>
+    <form action="#" id="form" onsubmit="handleFormSubmit(event)">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <br><br>
+        <label for="number">Phone Number:</label>
+        <input type="tel" name="number" id="number">
+        <br><br>
+        <label for="date">Date:</label>
+        <input type="date" name="date" placeholder="dd-mm-yyyy" id="date">
+        <br><br>
+        <label for="time">Time:</label>
+        <input type="time" name="time" placeholder="--:--" id="time">
+        <br><br>
+        <label>
+            <button type="submit">Submit</button>
+        </label>
+        <label>
+            <button type="reset">Reset</button>
+        </label>
+    </form>
+</body>
+
+<script src="index.js"></script>
+
+</html>
